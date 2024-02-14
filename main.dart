@@ -1,16 +1,19 @@
 void main() {
-  var player = {
-    'name': 'nico',
-    'xp': 20.05,
-    'superpower': false,
+  var numbers = {
+    1,
+    2,
+    3,
   };
-
-  Map<int, bool> numbers = {
-    1: true,
-    2: false,
+  Set<int> nums = {
+    1,
+    2,
+    3,
+    4,
+    5,
   };
-  Map<List<int>, bool> complex = {
-    [1, 2, 3]: true,
-    [2, 4, 6]: false,
-  };
+  print(nums);
+  nums.add(1);
+  nums.add(1);
+  nums.add(1);
+  print(nums);
 }
